@@ -1,0 +1,168 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: sans-serif;
+}
+h3 {
+  font-size: 27px;
+}
+
+.main1 {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 1px solid silver;
+}
+
+.main2 {
+  border-top: 1px solid silver;
+  padding: 20px 0px 0px 0px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.details > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Makes the image round */
+}
+
+textarea {
+  resize: none;
+  /* font-weight: bolder; */
+  font-size: 27px;
+  width: 103.5%;
+  margin-top: 5px;
+  margin-left: -18px;
+    border: none;
+  padding: 5px 20px;
+height: 36.6vh;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.images {
+  margin-top: 20px;
+}
+
+.images > ul {
+  display: flex;
+  flex-wrap: wrap; /* Allows images to wrap to the next line if space is insufficient */
+  justify-content: center;
+
+}
+
+.images {
+  border: 2px solid silver;
+  padding: 0px;
+}
+.images > ul > li {
+  margin: 5px;
+}
+
+.images > ul > li > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Makes the image round */
+  cursor: pointer;
+}
+
+.inputs {
+  margin-top: 10px;
+  border: 2px solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inputs > input {
+  margin-right: 10px;
+}
+
+.inputs > img {
+  width: 50px;
+  /* background-color:lightskyblue; */
+  border-radius: 100%;
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 1% 47.9%;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  background-color: #e4e6eb;
+  color: #474849;
+}
+
+
+.post {
+  margin: auto;
+  width: 90%; /* Decreased width to make it smaller */
+  max-width: 600px; /* Added max-width for responsiveness */
+  border: 1px solid silver;
+  margin-top: 60px;
+}
+
+.innerText{
+  padding: 7px;
+  margin: 0 auto;
+font-size: 22px;
+width: 100%;
+height: 50vh;
+display: flex;
+justify-content: center !important;
+text-align: center;
+align-items: center ;
+font-size: 25px;
+font-weight: bolder;
+}
+.button-div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer{
+  padding: 17px 0px 5px 0px;
+background-color: white;
+}
+
+.button2{
+  padding:7px 50px ;
+  border-radius: 14px;
+  border: none;
+  font-size: 20px;
+  background-color: #f1f3f7;
+  color: #2f2f2f;
+  
+}
+i{
+  padding-right: 10px;
+}
+
+
